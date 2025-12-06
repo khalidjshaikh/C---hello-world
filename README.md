@@ -5,7 +5,7 @@ A simple C++ application with automated builds and releases via GitHub Actions.
 ## Features
 
 - Cross-platform C++ application
-- Automated builds for Linux, Windows, and macOS
+- Automated builds for macOS
 - GitHub Actions CI/CD pipeline
 - Automatic releases on version tags
 
