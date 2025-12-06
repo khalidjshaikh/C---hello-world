@@ -18,9 +18,9 @@ jobs:
           - os: ubuntu-latest
             artifact_name: myapp
             asset_name: myapp-linux-amd64
-          - os: windows-latest
-            artifact_name: myapp.exe
-            asset_name: myapp-windows-amd64.exe
+          # - os: windows-latest
+          #   artifact_name: myapp.exe
+          #   asset_name: myapp-windows-amd64.exe
           - os: macos-latest
             artifact_name: myapp
             asset_name: myapp-macos-amd64
