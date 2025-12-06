@@ -38,7 +38,7 @@ git push origin v1.0.0
 ```
 
 The GitHub Actions workflow will:
-1. Build executables for Linux, Windows, and macOS
+1. Build executables for macOS
 2. Create a GitHub release
 3. Upload all platform binaries to the release
 
