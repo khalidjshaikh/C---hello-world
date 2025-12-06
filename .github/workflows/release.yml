@@ -10,14 +10,13 @@ jobs:
   build:
     name: Build on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
-    strategy:
       matrix:
         os: [ubuntu-latest, macos-latest]
         # os: [ubuntu-latest, windows-latest, macos-latest]
         include:
-          - os: ubuntu-latest
-            artifact_name: myapp
-            asset_name: myapp-linux-amd64
+          # - os: ubuntu-latest
+          #   artifact_name: myapp
+          #   asset_name: myapp-linux-amd64
           # - os: windows-latest
           #   artifact_name: myapp.exe
           #   asset_name: myapp-windows-amd64.exe
