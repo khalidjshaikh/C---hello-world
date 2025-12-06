@@ -2,8 +2,8 @@
 #include <string>
 
 int main(int argc, char* argv[]) {
-    std::cout << "Hello from C++ Application!!" << std::endl;
-    std::cout << "Version: 1.0.0" << std::endl;
+    std::cout << "Hello from C++ Application!" << std::endl;
+    std::cout << "Version: 1.0.9" << std::endl;
     
     if (argc > 1) {
         std::cout << "Arguments provided: ";
